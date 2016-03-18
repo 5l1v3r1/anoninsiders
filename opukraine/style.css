@@ -1,0 +1,71 @@
+html, body {
+	font-family: "Helvetica", "Arial", sans-serif;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+#cont-a{
+	background: url('images/header-a.gif') repeat-x scroll 0 0 white;
+	float: left;
+	width: 50%;
+}
+
+#cont-b {
+	background: url('images/header-b.gif') repeat-x scroll 0 0 white;
+	float: right;
+	width: 50%;
+}
+
+.content {
+	margin: 0 auto;
+	padding: 0 0.5em;
+	max-width: 500px;
+}
+
+h1 {
+	display: inline-block;
+	font-size: 27px;
+	margin-top: 14px;
+	padding-right: 2em;
+}
+#cont-a .content h1 {
+	background: url('../wp-content/uploads/2014/01/Anonymous-emblem-36.png') no-repeat scroll right 0 transparent;
+	color: white;
+}
+#cont-b .content h1 {
+	background: url('images/Femen-logo1.png') no-repeat scroll right 0 transparent;
+	color: black;
+}
+
+p {
+	text-align: justify;
+}
+p.links a {
+	display: block;
+	margin: 0.75em 0;
+}
+
+footer {
+	margin-top: 2em;
+	padding: 2em 0;
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+	width: 50%;
+}
+footer.a {
+	background: url('images/footer-a.gif') repeat-x scroll 0 0 #1a2127;
+	color: white;
+	float: left;
+}
+footer.b {
+	color: black;
+	background: url('images/footer-b.gif') repeat-x scroll 0 0 #e5ded8;
+	float: right;
+}
+
+footer a { text-decoration: none; }
+footer.a a { color : white; }
+footer.b a { color : black; }

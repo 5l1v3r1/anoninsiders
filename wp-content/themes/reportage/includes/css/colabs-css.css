@@ -1,0 +1,69 @@
+/*
+* ColorLabs Responsive Layout Framework
+* Copyright 2011, ColorLabs
+* www.colorlabsproject.com
+*/
+/* #Base 978 Flexible Grid
+================================================== */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+
+body { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+caption, th, td { text-align: left; font-weight: normal; vertical-align: middle; }
+
+q, blockquote { quotes: none; }
+q:before, q:after, blockquote:before, blockquote:after { content: ""; content: none; }
+
+a img { border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary { display: block; }
+
+img { height: auto; max-width: 100%; display: inline-block; }
+
+/* --- Grid --- */
+.container { position: relative; padding: 0 15px; }
+.container:after, .clearfix:before, .clearfix:after, .row:before, .row:after, .widget:before, .widget:after { height: 0; clear: both; display: block; content: "\0020"; visibility: hidden; }
+
+.row { width: 100%; min-width: 0; margin: 0 auto; position: relative; max-width: 978px; }
+
+.column { float: left; display: inline; min-height: 1px; position: relative; margin-left: 3.091%; }
+.column:first-child, .column .alpha, .column.one-third, .column.col12 { margin-left: 0; }
+.column.one-third { width: 33.333%; }
+
+/* --- Column Width --- */
+.col1 { width: 5.5%; }
+
+.col2 { width: 14.091%; }
+
+.col3 { width: 22.682%; }
+
+.col4 { width: 31.273%; }
+
+.col5 { width: 39.864%; }
+
+.col6 { width: 48.455%; }
+
+.col7 { width: 57.045%; }
+
+.col8 { width: 65.636%; }
+
+.col9 { width: 74.227%; }
+
+.col10 { width: 82.818%; }
+
+.col11 { width: 91.409%; }
+
+.col12 { width: 100%; }
+
+/* --- Clearfix --- */
+.row:after, .clearfix:after, .widget:after { clear: both; }
+
+/*  #Mobile Phone
+================================================== */
+@media only screen and (max-width: 767px) { .row { max-width: 767px; }
+  .row > .column { margin-left: 0; }
+  .column { width: 100%; } }
