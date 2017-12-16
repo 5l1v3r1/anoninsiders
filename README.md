@@ -1,1 +1,1 @@
-Visit https://sh.cganx.org/anoninsiders-net-archive/ for repo info
+Visit https://hacklair.cyberguerilla.org/anoninsiders-net-archive/ for repo info
